@@ -1,0 +1,13 @@
+//footerのリンク
+.c-footer-link{
+  font-size: $font-size-s;
+  color: $white;
+  text-decoration: none;
+  padding-top: $padding-m;
+  padding-bottom: $padding-m;
+  &:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: .7;
+  }
+}

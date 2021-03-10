@@ -1,0 +1,9 @@
+//topページのスクールの紹介をカードのようにしている部分
+.c-card-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: $margin-xll auto;
+  padding: $padding-m;
+  box-sizing: border-box;
+}

@@ -1,0 +1,9 @@
+//スケジュールのth
+.c-schedule-th{
+  border: $black solid 2px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: $padding-m;
+  display: table-cell;
+  vertical-align: middle
+}

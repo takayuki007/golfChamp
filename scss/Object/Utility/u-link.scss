@@ -1,0 +1,6 @@
+//リンクのホバー時にアクションを加える
+.u-link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: .7;
+}

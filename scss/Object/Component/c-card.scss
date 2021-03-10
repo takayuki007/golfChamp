@@ -1,0 +1,9 @@
+//topページのサービス紹介カード部分
+.c-card{
+  display: flex;
+  flex-direction: column;
+  border: $gray 3px solid;
+  width: 30%;
+  height: 400px;
+  margin-bottom: $margin-xl;
+}

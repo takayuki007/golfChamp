@@ -1,0 +1,12 @@
+//headerメニューリストのリンク部分
+.c-header-link{
+  font-size: $font-size-m;
+  color: $grayGreen;
+  text-decoration: none;
+  padding: $padding-m $padding-s;
+  &:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 0.7;
+  }
+}

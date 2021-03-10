@@ -1,0 +1,19 @@
+//ボタン部分
+.c-btn{
+  background: $mosGreen;
+  color: $white;
+  font-size: $font-size-m;
+  display: block;
+  width: 400px;
+  height: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 auto;
+  text-decoration: none;
+  box-shadow: $black 0 4px 20px 0;
+  &:hover{
+    cursor: pointer;
+    opacity: .75;
+  }
+}
