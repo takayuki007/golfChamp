@@ -2,6 +2,7 @@
 .c-menu-cover{
   display: block;
   height: 100%;
+  line-height: 80px;
   @include tb(){
     position: absolute;
     top: 0;
