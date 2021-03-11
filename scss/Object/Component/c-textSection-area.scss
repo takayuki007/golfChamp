@@ -5,4 +5,10 @@
   padding-left: $padding-xl;
   padding-right: $padding-xl;
   margin-top: $margin-xll;
+
+  @include tb(){
+    padding-left: $padding-m;
+    padding-right: $padding-m;
+    margin-bottom: $margin-m;
+  }
 }

@@ -7,4 +7,8 @@
   justify-content: space-between;
   padding: $padding-s;
   box-sizing: border-box;
+
+  @include tb(){
+    height: 80px;
+  }
 }

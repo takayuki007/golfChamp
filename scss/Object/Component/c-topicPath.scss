@@ -5,4 +5,8 @@
   margin-right: $margin-ss;
   color: $black;
 
+  @include tb(){
+    line-height: 56px;
+  }
+
 }

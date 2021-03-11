@@ -1,0 +1,10 @@
+//レスポンシブ時にハンバーガメニューを形成
+.c-menu-cover{
+  display: none;
+
+  @include tb(){
+    display: block;
+    height: 100%;
+    width: auto;
+  }
+}

@@ -5,4 +5,8 @@
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+
+  @include tb(){
+    padding: 8px;
+  }
 }

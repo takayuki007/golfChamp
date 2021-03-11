@@ -2,4 +2,8 @@
 .c-text{
   font-size: $font-size-m;
   line-height: 1.5em;
+
+  @include tb(){
+    font-size: $font-size-ss;
+  }
 }

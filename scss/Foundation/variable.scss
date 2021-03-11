@@ -1,5 +1,23 @@
 //変数まとめ
-
+//***********************
+//Map
+//***********************
+$breakpoints: (
+        'sm': 'screen and (man-width: 414px)',
+        'md': 'screen and (max-width: 780px)',
+        'lg': 'screen and (max-width: 1000px)',
+        'xl': 'screen and (max-width: 780px)',
+) !default;
+@mixin sp($breakpoint: sm) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+@mixin tb($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
 //***********************
 //Color
 //***********************

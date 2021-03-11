@@ -4,4 +4,7 @@
   &:last-child{
     margin-right: 0;
   }
+  @include tb(){
+    display: none;
+  }
 }

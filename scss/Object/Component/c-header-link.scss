@@ -9,4 +9,7 @@
     text-decoration: underline;
     opacity: 0.7;
   }
+  @include tb(){
+    display: none;
+  }
 }

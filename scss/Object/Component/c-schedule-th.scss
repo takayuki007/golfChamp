@@ -5,5 +5,9 @@
   text-align: center;
   padding: $padding-m;
   display: table-cell;
-  vertical-align: middle
+  vertical-align: middle;
+
+  @include tb(){
+    padding: 8px;
+  }
 }

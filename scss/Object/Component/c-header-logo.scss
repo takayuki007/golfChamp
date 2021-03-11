@@ -3,4 +3,9 @@
   font-size: $font-size-xl;
   color: $grayGreen;
   line-height: 80px;
+
+  @include tb(){
+    line-height: 40px;
+    font-size: $font-size-l;
+  }
 }

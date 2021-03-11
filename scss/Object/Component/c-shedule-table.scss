@@ -5,4 +5,8 @@
   height: auto;
   border: $black solid 3px;
   box-sizing: border-box;
+
+  @include tb(){
+    width: 100%;
+  }
 }

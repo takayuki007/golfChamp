@@ -5,4 +5,9 @@
   padding-left: 180px;
   background: $gray;
   box-sizing: border-box;
+
+  @include tb(){
+    height: 56px;
+    padding-left: $padding-m;
+  }
 }
