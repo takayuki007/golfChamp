@@ -3,4 +3,9 @@
   width: 100%;
   height: auto;
   background: $white;
+
+  @include tb(){
+    margin-top: $margin-xll;
+    margin-bottom: $margin-xll;
+  }
 }
