@@ -4,4 +4,8 @@
   margin: $margin-l auto;
   width: 400px;
   height: 520px;
+
+  @include sp(){
+    width: 100%;
+  }
 }
