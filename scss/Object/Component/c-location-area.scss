@@ -2,4 +2,9 @@
 .c-location-area{
   margin: $margin-xll auto;
   width: 50%;
+
+  @include tb(){
+    margin: $margin-m auto;
+    width: 80%;
+  }
 }
