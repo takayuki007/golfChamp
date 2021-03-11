@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -53,6 +54,9 @@ table {
   justify-content: space-between;
   padding: 20px;
   box-sizing: border-box; }
+  @media screen and (max-width: 780px) {
+    .l-header {
+      height: 80px; } }
 
 .l-main {
   font-family: "M PLUS 1p", sans-serif; }
@@ -68,6 +72,10 @@ table {
   width: 100%;
   height: auto;
   background: #FFFFFF; }
+  @media screen and (max-width: 780px) {
+    .l-bg-white {
+      margin-top: 60px;
+      margin-bottom: 60px; } }
 
 .l-bg-lightGreen {
   background: #EFFFF8;
@@ -75,10 +83,104 @@ table {
   width: 100%;
   padding: 120px;
   box-sizing: border-box; }
+  @media screen and (max-width: 780px) {
+    .l-bg-lightGreen {
+      padding: 20px; } }
+
+#l-nav-drawer {
+  display: none; }
+  @media screen and (max-width: 780px) {
+    #l-nav-drawer {
+      position: relative;
+      /*チェックボックス等は非表示に*/
+      /*アイコンのスペース*/
+      /*ハンバーガーアイコンのCSS*/
+      /*閉じる用の薄黒カバー*/
+      /*中身*/
+      /*チェックが入ったらもろもろ表示*/ }
+      #l-nav-drawer .l-nav-none {
+        display: none; }
+      #l-nav-drawer #l-nav-open {
+        display: inline-block;
+        width: 30px;
+        height: 22px;
+        vertical-align: middle; }
+      #l-nav-drawer #l-nav-open span, #l-nav-drawer #l-nav-open span:before, #l-nav-drawer #l-nav-open span:after {
+        position: absolute;
+        height: 3px;
+        /*線の太さ*/
+        width: 25px;
+        /*長さ*/
+        border-radius: 3px;
+        background: #555;
+        display: block;
+        content: '';
+        cursor: pointer; }
+      #l-nav-drawer #l-nav-open span:before {
+        bottom: -8px; }
+      #l-nav-drawer #l-nav-open span:after {
+        bottom: -16px; }
+      #l-nav-drawer #l-nav-close {
+        display: none;
+        /*はじめは隠しておく*/
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        /*全体に広がるように*/
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0;
+        transition: .3s ease-in-out; }
+      #l-nav-drawer #l-nav-content {
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        /*最前面に*/
+        width: 90%;
+        /*右側に隙間を作る（閉じるカバーを表示）*/
+        max-width: 330px;
+        /*最大幅（調整してください）*/
+        height: 100%;
+        background: #D3D3D3;
+        /*背景色*/
+        transition: .3s ease-in-out;
+        /*滑らかに表示*/
+        -webkit-transform: translateX(-105%);
+        transform: translateX(-105%);
+        /*左に隠しておく*/ }
+        #l-nav-drawer #l-nav-content .l-sp-nav {
+          width: 50%;
+          height: 100%;
+          margin: 0 auto;
+          padding: 22; }
+          #l-nav-drawer #l-nav-content .l-sp-nav .l-sp-li {
+            margin-bottom: 45px; }
+            #l-nav-drawer #l-nav-content .l-sp-nav .l-sp-li .l-sp-a {
+              font-family: 'Roboto', sans-serif;
+              text-decoration: none;
+              line-height: 20px;
+              font-size: 20px;
+              color: #00934E; }
+      #l-nav-drawer #l-nav-input:checked ~ #l-nav-close {
+        display: block;
+        /*カバーを表示*/
+        opacity: .5; }
+      #l-nav-drawer #l-nav-input:checked ~ #l-nav-content {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        /*中身を表示（右へスライド）*/
+        box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15); } }
 
 .c-about-img {
   width: 50%;
   height: 400px; }
+  @media screen and (max-width: 780px) {
+    .c-about-img {
+      height: 320px; } }
 
 .c-btn {
   background: #00934E;
@@ -97,13 +199,40 @@ table {
     cursor: pointer;
     opacity: .75; }
 
+.c-burger-line {
+  display: none; }
+  @media screen and (max-width: 780px) {
+    .c-burger-line {
+      display: block;
+      z-index: 3;
+      margin-right: 12px;
+      line-height: 40px;
+      font-size: 20px; } }
+
+.c-burger-ul {
+  display: none; }
+  @media screen and (max-width: 780px) {
+    .c-burger-ul {
+      display: block; } }
+
 .c-card {
   display: flex;
   flex-direction: column;
   border: #D3D3D3 3px solid;
   width: 30%;
   height: 400px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  box-sizing: border-box; }
+  @media screen and (max-width: 780px) {
+    .c-card {
+      width: 48%;
+      margin-right: 12px; }
+      .c-card:nth-child(2) {
+        margin-right: 0; }
+      .c-card:nth-child(4) {
+        margin-right: 0; }
+      .c-card:last-child {
+        margin-right: 0; } }
 
 .c-card-img {
   width: 100%;
@@ -116,6 +245,9 @@ table {
   margin: 60px auto;
   padding: 40px;
   box-sizing: border-box; }
+  @media screen and (max-width: 780px) {
+    .c-card-section {
+      padding: 20px; } }
 
 .c-coach-area {
   margin: 60px auto;
@@ -133,6 +265,9 @@ table {
   overflow: hidden;
   background: url("../img/line-img.jpg");
   background-size: cover; }
+  @media screen and (max-width: 780px) {
+    .c-footer-imgArea {
+      height: 120px; } }
 
 .c-footer-li {
   font-size: 16px;
@@ -163,11 +298,18 @@ table {
   font-size: 28px;
   color: #3D725B;
   line-height: 80px; }
+  @media screen and (max-width: 780px) {
+    .c-header-logo {
+      line-height: 40px;
+      font-size: 20px; } }
 
 .c-header-ul {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media screen and (max-width: 780px) {
+    .c-header-ul {
+      display: none; } }
 
 .c-heading {
   font-size: 20px;
@@ -179,11 +321,17 @@ table {
   overflow: hidden;
   background: url("../img/bg-img.jpg");
   background-size: cover; }
+  @media screen and (max-width: 780px) {
+    .c-img-area {
+      height: 120px; } }
 
 .c-header-li {
   margin-right: 12px; }
   .c-header-li:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 780px) {
+    .c-header-li {
+      display: none; } }
 
 .c-header-link {
   font-size: 18px;
@@ -194,6 +342,9 @@ table {
     cursor: pointer;
     text-decoration: underline;
     opacity: 0.7; }
+  @media screen and (max-width: 780px) {
+    .c-header-link {
+      display: none; } }
 
 .c-introduction {
   margin: 40px auto;
@@ -204,6 +355,9 @@ table {
   height: 400px;
   display: block;
   margin: 0 auto; }
+  @media screen and (max-width: 780px) {
+    .c-lesson-img {
+      width: 80%; } }
 
 .c-link {
   display: block;
@@ -220,6 +374,10 @@ table {
 .c-location-area {
   margin: 60px auto;
   width: 50%; }
+  @media screen and (max-width: 780px) {
+    .c-location-area {
+      margin: 20px auto;
+      width: 80%; } }
 
 .c-location-img {
   display: block;
@@ -231,6 +389,14 @@ table {
   width: 100%;
   height: auto; }
 
+.c-menu-cover {
+  display: none; }
+  @media screen and (max-width: 780px) {
+    .c-menu-cover {
+      display: block;
+      height: 100%;
+      width: auto; } }
+
 .c-reason {
   width: 50%;
   box-sizing: border-box;
@@ -241,6 +407,9 @@ table {
   width: 100%;
   height: 328px;
   margin-bottom: 32px; }
+  @media screen and (max-width: 780px) {
+    .c-reason-img {
+      height: 200px; } }
 
 .c-reason-section {
   width: 100%;
@@ -256,6 +425,9 @@ table {
   text-align: center;
   display: table-cell;
   vertical-align: middle; }
+  @media screen and (max-width: 780px) {
+    .c-schedule-td {
+      padding: 8px; } }
 
 .c-schedule-th {
   border: #000000 solid 2px;
@@ -264,6 +436,9 @@ table {
   padding: 40px;
   display: table-cell;
   vertical-align: middle; }
+  @media screen and (max-width: 780px) {
+    .c-schedule-th {
+      padding: 8px; } }
 
 .c-schedule-tr {
   height: 100px;
@@ -281,10 +456,25 @@ table {
   height: auto;
   border: #000000 solid 3px;
   box-sizing: border-box; }
+  @media screen and (max-width: 780px) {
+    .c-schedule-table {
+      width: 100%; } }
 
 .c-text {
   font-size: 18px;
   line-height: 1.5em; }
+  @media screen and (max-width: 780px) {
+    .c-text {
+      font-size: 18px; } }
+
+.c-text-area {
+  padding: 120px;
+  width: 50%;
+  box-sizing: border-box; }
+  @media screen and (max-width: 780px) {
+    .c-text-area {
+      padding: 40px;
+      width: 50%; } }
 
 .c-textSection-area {
   display: flex;
@@ -292,6 +482,11 @@ table {
   padding-left: 120px;
   padding-right: 120px;
   margin-top: 60px; }
+  @media screen and (max-width: 780px) {
+    .c-textSection-area {
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-bottom: 20px; } }
 
 .c-title {
   font-size: 28px;
@@ -302,6 +497,9 @@ table {
   text-decoration: none;
   margin-right: 12px;
   color: #000000; }
+  @media screen and (max-width: 780px) {
+    .c-topicPath {
+      line-height: 56px; } }
 
 .c-topicPath-area {
   width: 100%;
@@ -309,6 +507,10 @@ table {
   padding-left: 180px;
   background: #D3D3D3;
   box-sizing: border-box; }
+  @media screen and (max-width: 780px) {
+    .c-topicPath-area {
+      height: 56px;
+      padding-left: 40px; } }
 
 .p-footer-underline {
   border-top: #FFFFFF solid 5px;
@@ -322,6 +524,10 @@ table {
   line-height: 64px;
   margin-bottom: 16px;
   text-align: center; }
+  @media screen and (max-width: 780px) {
+    .p-heading-square {
+      line-height: 34px;
+      vertical-align: middle; } }
 
 .p-text-square {
   background: #81EFBE;
@@ -347,6 +553,9 @@ table {
 .u-l-padding {
   padding: 120px;
   box-sizing: border-box; }
+  @media screen and (max-width: 780px) {
+    .u-l-padding {
+      padding: 8px; } }
 
 .u-link:hover {
   cursor: pointer;
@@ -356,6 +565,10 @@ table {
 .u-margin {
   margin-top: 60px;
   margin-bottom: 60px; }
+  @media screen and (max-width: 780px) {
+    .u-margin {
+      margin-top: 24px;
+      margin-bottom: 24px; } }
 
 .u-margin-top {
   margin-top: 40px; }
@@ -371,3 +584,6 @@ table {
   height: 20px;
   margin: 0 auto;
   width: 50%; }
+  @media screen and (max-width: 780px) {
+    .u-underline {
+      width: 100%; } }

@@ -6,4 +6,19 @@
   width: 30%;
   height: 400px;
   margin-bottom: $margin-xl;
+  box-sizing: border-box;
+
+  @include tb(){
+    width: 48%;
+    margin-right: $margin-ss;
+    &:nth-child(2){
+      margin-right: 0;
+    }
+    &:nth-child(4){
+      margin-right: 0;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
 }

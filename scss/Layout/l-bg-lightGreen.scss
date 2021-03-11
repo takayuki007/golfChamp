@@ -5,4 +5,8 @@
   width: 100%;
   padding: $padding-xl;
   box-sizing: border-box;
+
+  @include tb(){
+    padding: $padding-s;
+  }
 }

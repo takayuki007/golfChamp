@@ -6,4 +6,9 @@
   line-height: 64px;
   margin-bottom: $margin-s;
   text-align: center;
+
+  @include tb(){
+    line-height: 34px;
+    vertical-align: middle;
+  }
 }

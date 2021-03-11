@@ -6,4 +6,8 @@
   margin: $margin-xll auto;
   padding: $padding-m;
   box-sizing: border-box;
+
+  @include tb(){
+    padding: $padding-s;
+  }
 }
