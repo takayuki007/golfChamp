@@ -5,6 +5,6 @@
     margin-right: 0;
   }
   @include tb(){
-    display: none;
+    margin-right: initial;
   }
 }
