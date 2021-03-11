@@ -443,12 +443,19 @@ table {
     .c-location-area {
       margin: 20px auto;
       width: 80%; } }
+  @media screen and (max-width: 414px) {
+    .c-location-area {
+      width: 100%; } }
 
 .c-location-img {
   display: block;
   margin: 24px auto;
   width: 560px;
   height: 420px; }
+  @media screen and (max-width: 414px) {
+    .c-location-img {
+      width: 100%;
+      height: auto; } }
 
 .c-main-pic {
   width: 100%;

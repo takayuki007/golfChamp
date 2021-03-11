@@ -7,4 +7,8 @@
     margin: $margin-m auto;
     width: 80%;
   }
+
+  @include sp(){
+    width: 100%;
+  }
 }
