@@ -10,4 +10,7 @@
   @include tb(){
     padding: $padding-s;
   }
+  @include sp(){
+    padding: $padding-ss;
+  }
 }

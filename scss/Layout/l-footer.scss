@@ -5,4 +5,11 @@
   background: $darkGreen;
   padding: $padding-m;
   box-sizing: border-box;
+
+  @include sp(){
+    display: flex;
+    flex-direction: column;
+    padding: $padding-ss;
+    height: auto;
+  }
 }

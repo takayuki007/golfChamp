@@ -2,4 +2,8 @@
 .c-title{
   font-size: $font-size-xl;
   text-align: center;
+
+  @include sp(){
+    font-size: $font-size-l;
+  }
 }

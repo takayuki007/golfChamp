@@ -5,4 +5,8 @@
   text-align: center;
   margin-top: $margin-xll;
   margin-bottom: $margin-xll;
+
+  @include sp(){
+    font-size: 120px;
+  }
 }

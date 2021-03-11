@@ -2,4 +2,8 @@
 .c-footer-li{
   font-size: $font-size-s;
   color: $white;
+
+  @include sp(){
+    margin-bottom: $margin-ss;
+  }
 }

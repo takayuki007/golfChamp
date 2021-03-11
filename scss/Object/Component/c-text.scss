@@ -6,4 +6,7 @@
   @include tb(){
     font-size: $font-size-m;
   }
+  @include sp(){
+    font-size: $font-size-s;
+  }
 }

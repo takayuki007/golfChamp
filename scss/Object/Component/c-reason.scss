@@ -4,4 +4,8 @@
   box-sizing: border-box;
   padding: $padding-s;
   margin-bottom: $margin-l;
+
+  @include sp(){
+    width: 100%;
+  }
 }

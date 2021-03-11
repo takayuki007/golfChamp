@@ -3,4 +3,8 @@
   border-top: $white solid 5px;
   height: 32px;
   width: 100%;
+
+  @include sp(){
+    height: 16px;
+  }
 }
