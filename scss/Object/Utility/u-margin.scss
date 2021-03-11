@@ -2,4 +2,9 @@
 .u-margin{
   margin-top: $margin-xll;
   margin-bottom: $margin-xll;
+
+  @include tb(){
+    margin-top: $margin-l;
+    margin-bottom: $margin-l;
+  }
 }

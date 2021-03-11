@@ -4,4 +4,8 @@
   height: 400px;
   display: block;
   margin: 0 auto;
+
+  @include tb(){
+    width: 80%;
+  }
 }

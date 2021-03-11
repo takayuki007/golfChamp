@@ -2,4 +2,8 @@
 .c-about-img{
   width: 50%;
   height: 400px;
+
+  @include tb(){
+    height: 320px;
+  }
 }
