@@ -10,4 +10,7 @@
     height: 56px;
     padding-left: $padding-m;
   }
+  @include sp(){
+    padding-left: $padding-s;
+  }
 }

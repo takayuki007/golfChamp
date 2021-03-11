@@ -3,9 +3,13 @@
   width: 50%;
   height: 400px;
   display: block;
-  margin: 0 auto;
+  margin: $margin-m auto;
 
   @include tb(){
     width: 80%;
+  }
+  @include sp(){
+    width: 100%;
+    height: auto;
   }
 }

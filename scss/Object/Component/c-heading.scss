@@ -2,4 +2,8 @@
 .c-heading{
   font-size: $font-size-l;
   margin-bottom: $margin-m;
+
+  @include sp(){
+    font-size: $font-size-m;
+  }
 }

@@ -6,4 +6,14 @@
   @include tb(){
     height: 320px;
   }
+  @include sp(){
+    width: 100%;
+    height: 200px;
+    &:first-child{
+      order: 0;
+    }
+    &:nth-child(3){
+      order: 0;
+    }
+  }
 }

@@ -4,4 +4,9 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
+
+  @include sp(){
+    flex-direction: column;
+    margin-top: $margin-l;
+  }
 }

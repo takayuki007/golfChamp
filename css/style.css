@@ -187,6 +187,14 @@ table {
   @media screen and (max-width: 780px) {
     .c-about-img {
       height: 320px; } }
+  @media screen and (max-width: 414px) {
+    .c-about-img {
+      width: 100%;
+      height: 200px; }
+      .c-about-img:first-child {
+        order: 0; }
+      .c-about-img:nth-child(3) {
+        order: 0; } }
 
 .c-btn {
   background: #00934E;
@@ -338,6 +346,9 @@ table {
 .c-heading {
   font-size: 20px;
   margin-bottom: 20px; }
+  @media screen and (max-width: 414px) {
+    .c-heading {
+      font-size: 18px; } }
 
 .c-img-area {
   width: 100%;
@@ -380,14 +391,32 @@ table {
       margin: 20px auto;
       box-sizing: border-box; } }
 
+.c-lesson-area {
+  padding: 80px;
+  width: 60%;
+  box-sizing: border-box;
+  margin: 0 auto; }
+  @media screen and (max-width: 780px) {
+    .c-lesson-area {
+      padding: 40px;
+      width: 50%; } }
+  @media screen and (max-width: 414px) {
+    .c-lesson-area {
+      width: 100%;
+      padding: 12px; } }
+
 .c-lesson-img {
   width: 50%;
   height: 400px;
   display: block;
-  margin: 0 auto; }
+  margin: 20px auto; }
   @media screen and (max-width: 780px) {
     .c-lesson-img {
       width: 80%; } }
+  @media screen and (max-width: 414px) {
+    .c-lesson-img {
+      width: 100%;
+      height: auto; } }
 
 .c-link {
   display: block;
@@ -482,6 +511,10 @@ table {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box; }
+  @media screen and (max-width: 414px) {
+    .c-school-area {
+      flex-direction: column;
+      margin-top: 24px; } }
 
 .c-schedule-table {
   width: 100%;
@@ -504,13 +537,21 @@ table {
       font-size: 16px; } }
 
 .c-text-area {
-  padding: 120px;
+  padding: 80px;
   width: 50%;
   box-sizing: border-box; }
   @media screen and (max-width: 780px) {
     .c-text-area {
       padding: 40px;
       width: 50%; } }
+  @media screen and (max-width: 414px) {
+    .c-text-area {
+      width: 100%;
+      padding: 12px; }
+      .c-text-area:first-child {
+        order: 1; }
+      .c-text-area:nth-child(3) {
+        order: 1; } }
 
 .c-textSection-area {
   display: flex;
@@ -539,6 +580,9 @@ table {
   @media screen and (max-width: 780px) {
     .c-topicPath {
       line-height: 56px; } }
+  @media screen and (max-width: 414px) {
+    .c-topicPath {
+      margin-right: 8px; } }
 
 .c-topicPath-area {
   width: 100%;
@@ -550,6 +594,9 @@ table {
     .c-topicPath-area {
       height: 56px;
       padding-left: 40px; } }
+  @media screen and (max-width: 414px) {
+    .c-topicPath-area {
+      padding-left: 20px; } }
 
 .p-footer-underline {
   border-top: #FFFFFF solid 5px;

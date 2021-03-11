@@ -1,8 +1,9 @@
-//スクールの特徴のテキスト部分
-.c-text-area{
+//レッスン内容&料金のテキスト部分
+.c-lesson-area{
   padding: $padding-ll;
-  width: 50%;
+  width: 60%;
   box-sizing: border-box;
+  margin: 0 auto;
 
  @include tb(){
    padding: $padding-m;
@@ -11,11 +12,5 @@
   @include sp(){
     width: 100%;
     padding: $padding-ss;
-    &:first-child{
-      order: 1;
-    }
-    &:nth-child(3){
-      order: 1;
-    }
   }
 }
