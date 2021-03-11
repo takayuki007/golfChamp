@@ -11,4 +11,8 @@
     padding-right: $padding-m;
     margin-bottom: $margin-m;
   }
+  @include sp(){
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -2,4 +2,11 @@
 .c-schedule-tr{
   height: 100px;
   border: $black solid 2px;
+
+  @include tb(){
+    height: 60px;
+  }
+  @include sp(){
+    height: auto;
+  }
 }

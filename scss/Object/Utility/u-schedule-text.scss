@@ -1,0 +1,12 @@
+//テキスト部分
+.u-schedule-text{
+  font-size: $font-size-m;
+  line-height: 1.5em;
+
+  @include tb(){
+    font-size: $font-size-s;
+  }
+  @include sp(){
+    font-size: 8px;
+  }
+}
