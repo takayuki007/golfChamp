@@ -54,7 +54,7 @@ table {
   justify-content: space-between;
   padding: 20px;
   box-sizing: border-box; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .l-header {
       height: 80px; } }
 
@@ -78,7 +78,7 @@ table {
   width: 100%;
   height: auto;
   background: #FFFFFF; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .l-bg-white {
       margin-top: 60px;
       margin-bottom: 60px; } }
@@ -89,13 +89,13 @@ table {
   width: 100%;
   padding: 120px;
   box-sizing: border-box; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .l-bg-lightGreen {
       padding: 20px; } }
 
 #l-nav-drawer {
   display: none; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     #l-nav-drawer {
       position: relative;
       /*チェックボックス等は非表示に*/
@@ -186,7 +186,7 @@ table {
   width: 60%;
   box-sizing: border-box;
   margin: 0 auto; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-about-area {
       padding: 40px;
       width: 50%; } }
@@ -198,7 +198,7 @@ table {
 .c-about-img {
   width: 50%;
   height: 400px; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-about-img {
       height: 320px; } }
   @media screen and (max-width: 414px) {
@@ -250,7 +250,7 @@ table {
 
 .c-burger-ul {
   display: none; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-burger-ul {
       display: block; } }
 
@@ -262,7 +262,7 @@ table {
   height: 400px;
   margin-bottom: 40px;
   box-sizing: border-box; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-card {
       width: 48%;
       margin-right: 12px; }
@@ -288,7 +288,7 @@ table {
   margin: 60px auto;
   padding: 40px;
   box-sizing: border-box; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-card-section {
       padding: 20px; } }
   @media screen and (max-width: 414px) {
@@ -317,7 +317,7 @@ table {
   overflow: hidden;
   background: url("../img/line-img-top.jpg");
   background-size: cover; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-footer-imgArea {
       height: 120px; } }
 
@@ -357,7 +357,7 @@ table {
   font-size: 28px;
   color: #3D725B;
   line-height: 80px; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-header-logo {
       line-height: 40px;
       font-size: 20px; } }
@@ -366,7 +366,7 @@ table {
   display: flex;
   align-items: center;
   font-size: 18px; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-header-ul {
       display: block;
       font-size: 20px; } }
@@ -384,7 +384,7 @@ table {
   overflow: hidden;
   background: url("../img/bg-img.jpg");
   background-size: cover; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-img-area {
       height: 120px; } }
 
@@ -392,7 +392,7 @@ table {
   margin-right: 12px; }
   .c-header-li:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-header-li {
       margin-right: initial; } }
 
@@ -406,7 +406,7 @@ table {
     cursor: pointer;
     text-decoration: underline;
     opacity: 0.7; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-header-link {
       -webkit-font-smoothing: initial;
       display: block;
@@ -436,7 +436,7 @@ table {
   width: 60%;
   box-sizing: border-box;
   margin: 0 auto; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-lesson-area {
       padding: 40px;
       width: 50%; } }
@@ -450,7 +450,7 @@ table {
   height: 400px;
   display: block;
   margin: 20px auto; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-lesson-img {
       width: 80%; } }
   @media screen and (max-width: 414px) {
@@ -473,7 +473,7 @@ table {
 .c-location-area {
   margin: 60px auto;
   width: 50%; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-location-area {
       margin: 20px auto;
       width: 80%; } }
@@ -499,7 +499,7 @@ table {
   display: block;
   height: 100%;
   line-height: 80px; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-menu-cover {
       position: absolute;
       top: 0;
@@ -542,7 +542,7 @@ table {
     opacity: 0; }
   .c-menu-trigger.active .c-burger-line:nth-of-type(3) {
     transform: translateY(-15px) rotate(45deg); }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-menu-trigger {
       display: inline-block; } }
   @media screen and (max-width: 414px) {
@@ -562,7 +562,7 @@ table {
   width: 100%;
   height: 328px;
   margin-bottom: 32px; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-reason-img {
       height: 200px; } }
 
@@ -580,7 +580,7 @@ table {
   text-align: center;
   display: table-cell;
   vertical-align: middle; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-schedule-td {
       padding: 0; } }
   @media screen and (max-width: 414px) {
@@ -594,7 +594,7 @@ table {
   padding: 40px;
   display: table-cell;
   vertical-align: middle; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-schedule-th {
       padding: 0; } }
   @media screen and (max-width: 414px) {
@@ -604,7 +604,7 @@ table {
 .c-schedule-tr {
   height: 100px;
   border: #000000 solid 2px; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-schedule-tr {
       height: 60px; } }
   @media screen and (max-width: 414px) {
@@ -627,7 +627,7 @@ table {
   height: auto;
   border: #000000 solid 3px;
   box-sizing: border-box; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-schedule-table {
       width: 100%; } }
   @media screen and (max-width: 414px) {
@@ -637,7 +637,7 @@ table {
 .c-text {
   font-size: 18px;
   line-height: 1.5em; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-text {
       font-size: 18px; } }
   @media screen and (max-width: 414px) {
@@ -648,7 +648,7 @@ table {
   padding: 80px;
   width: 50%;
   box-sizing: border-box; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-text-area {
       padding: 40px;
       width: 50%; } }
@@ -667,7 +667,7 @@ table {
   padding-left: 120px;
   padding-right: 120px;
   margin-top: 60px; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-textSection-area {
       padding-left: 40px;
       padding-right: 40px;
@@ -689,7 +689,7 @@ table {
   text-decoration: none;
   margin-right: 12px;
   color: #000000; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-topicPath {
       line-height: 56px; } }
   @media screen and (max-width: 414px) {
@@ -702,7 +702,7 @@ table {
   padding-left: 180px;
   background: #D3D3D3;
   box-sizing: border-box; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .c-topicPath-area {
       height: 56px;
       padding-left: 40px; } }
@@ -725,7 +725,7 @@ table {
   line-height: 64px;
   margin-bottom: 16px;
   text-align: center; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .p-heading-square {
       line-height: 34px;
       vertical-align: middle; } }
@@ -761,7 +761,7 @@ table {
 .u-l-padding {
   padding: 120px;
   box-sizing: border-box; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .u-l-padding {
       padding: 8px; } }
 
@@ -773,7 +773,7 @@ table {
 .u-margin {
   margin-top: 60px;
   margin-bottom: 60px; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .u-margin {
       margin-top: 24px;
       margin-bottom: 24px; } }
@@ -787,7 +787,7 @@ table {
 .u-schedule-text {
   font-size: 18px;
   line-height: 1.5em; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .u-schedule-text {
       font-size: 16px; } }
   @media screen and (max-width: 414px) {
@@ -802,6 +802,6 @@ table {
   height: 20px;
   margin: 0 auto;
   width: 50%; }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 1100px) {
     .u-underline {
       width: 100%; } }
