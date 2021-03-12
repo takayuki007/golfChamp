@@ -181,6 +181,20 @@ table {
         /*中身を表示（右へスライド）*/
         box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15); } }
 
+.c-about-area {
+  padding: 80px;
+  width: 60%;
+  box-sizing: border-box;
+  margin: 0 auto; }
+  @media screen and (max-width: 780px) {
+    .c-about-area {
+      padding: 40px;
+      width: 50%; } }
+  @media screen and (max-width: 414px) {
+    .c-about-area {
+      width: 100%;
+      padding: 12px; } }
+
 .c-about-img {
   width: 50%;
   height: 400px; }
@@ -301,7 +315,7 @@ table {
   width: 100%;
   height: 200px;
   overflow: hidden;
-  background: url("../img/line-img.jpg");
+  background: url("../img/line-img-top.jpg");
   background-size: cover; }
   @media screen and (max-width: 780px) {
     .c-footer-imgArea {
