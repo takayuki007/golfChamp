@@ -1,0 +1,6 @@
+//スマホ時の下の余白を設定。特にフッター
+.u-sp-margin-bottom{
+  @include sp(){
+    margin-bottom: $margin-l;
+  }
+}

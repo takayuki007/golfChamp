@@ -71,7 +71,7 @@ table {
     .l-footer {
       display: flex;
       flex-direction: column;
-      padding: 12px;
+      padding: 20px;
       height: auto; } }
 
 .l-bg-white {
@@ -331,7 +331,7 @@ table {
   color: #FFFFFF; }
   @media screen and (max-width: 414px) {
     .c-footer-li {
-      margin-bottom: 24px; } }
+      margin-bottom: 12px; } }
 
 .c-footer-link {
   font-size: 16px;
@@ -352,6 +352,9 @@ table {
   font-size: 18px;
   color: #FFFFFF;
   margin-bottom: 20px; }
+  @media screen and (max-width: 414px) {
+    .c-footer-logo {
+      margin-bottom: 16px; } }
 
 .c-footer-ul {
   display: flex;
@@ -361,7 +364,7 @@ table {
     .c-footer-ul {
       display: flex;
       flex-direction: column;
-      margin-bottom: 12px; } }
+      margin-bottom: 8px; } }
 
 .c-header-logo {
   font-size: 28px;
@@ -811,6 +814,10 @@ table {
   @media screen and (max-width: 414px) {
     .u-schedule-text {
       font-size: 8px; } }
+
+@media screen and (max-width: 414px) {
+  .u-sp-margin-bottom {
+    margin-bottom: 24px; } }
 
 @media screen and (max-width: 414px) {
   .u-sp-schedule-text-space {
