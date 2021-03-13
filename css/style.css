@@ -313,7 +313,8 @@ table {
   height: 520px; }
   @media screen and (max-width: 414px) {
     .c-coach-img {
-      width: 100%; } }
+      width: 80%;
+      height: auto; } }
 
 .c-footer-imgArea {
   width: 100%;
@@ -330,7 +331,7 @@ table {
   color: #FFFFFF; }
   @media screen and (max-width: 414px) {
     .c-footer-li {
-      margin-bottom: 12px; } }
+      margin-bottom: 24px; } }
 
 .c-footer-link {
   font-size: 16px;
@@ -342,6 +343,10 @@ table {
     cursor: pointer;
     text-decoration: underline;
     opacity: .7; }
+  @media screen and (max-width: 414px) {
+    .c-footer-link {
+      padding-top: 8px;
+      padding-bottom: 8px; } }
 
 .c-footer-logo {
   font-size: 18px;
@@ -355,7 +360,8 @@ table {
   @media screen and (max-width: 414px) {
     .c-footer-ul {
       display: flex;
-      flex-direction: column; } }
+      flex-direction: column;
+      margin-bottom: 12px; } }
 
 .c-header-logo {
   font-size: 28px;
@@ -786,6 +792,10 @@ table {
       margin-top: 24px;
       margin-bottom: 24px; } }
 
+@media screen and (max-width: 414px) {
+  .u-margin-sp-top {
+    margin-top: 40px; } }
+
 .u-margin-top {
   margin-top: 40px; }
 
@@ -801,6 +811,11 @@ table {
   @media screen and (max-width: 414px) {
     .u-schedule-text {
       font-size: 8px; } }
+
+@media screen and (max-width: 414px) {
+  .u-sp-schedule-text-space {
+    margin-right: 4px;
+    margin-left: 4px; } }
 
 .u-text-center {
   text-align: center; }

@@ -10,4 +10,9 @@
     text-decoration: underline;
     opacity: .7;
   }
+
+  @include sp(){
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }

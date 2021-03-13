@@ -1,0 +1,6 @@
+//marginの上が欲しい時
+.u-margin-sp-top{
+  @include sp(){
+    margin-top: $margin-xl;
+  }
+}

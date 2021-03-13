@@ -6,6 +6,7 @@
   height: 520px;
 
   @include sp(){
-    width: 100%;
+    width: 80%;
+    height: auto;
   }
 }

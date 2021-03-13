@@ -1,0 +1,7 @@
+//曜日テキストスペース部分
+.u-sp-schedule-text-space{
+  @include sp(){
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+}
