@@ -2,7 +2,7 @@
 .p-heading-square{
   background: $lightGray;
   width: 100%;
-  height: 64px;
+  height: auto;
   line-height: 64px;
   margin-bottom: $margin-s;
   text-align: center;
@@ -10,5 +10,6 @@
   @include tb(){
     line-height: 34px;
     vertical-align: middle;
+    height: auto;
   }
 }

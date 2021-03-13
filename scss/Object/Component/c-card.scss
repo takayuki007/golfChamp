@@ -10,6 +10,7 @@
 
   @include tb(){
     width: 48%;
+    height: 300px;
     margin-right: $margin-ss;
     &:nth-child(2){
       margin-right: 0;

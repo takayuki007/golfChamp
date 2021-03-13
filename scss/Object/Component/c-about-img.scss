@@ -4,7 +4,7 @@
   height: 400px;
 
   @include tb(){
-    height: 320px;
+    height: auto;
   }
   @include sp(){
     width: 100%;

@@ -7,8 +7,8 @@
   margin-top: $margin-xll;
 
   @include tb(){
-    padding-left: $padding-m;
-    padding-right: $padding-m;
+    padding-left: $padding-ss;
+    padding-right: $padding-ss;
     margin-bottom: $margin-m;
   }
   @include sp(){
